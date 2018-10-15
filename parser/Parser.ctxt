@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=scan
+comment0.target=Parser(scanner.Scanner)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Parser\n\ \n\ @param\ scan\ a\ Scanner\n
+comment1.params=s
+comment1.target=void\ eat(java.lang.String)
+comment1.text=\n\ Eats\ a\ token\n\ \n\ @param\ s\ a\ token\n
+comment2.params=
+comment2.target=int\ parseNumber()
+comment2.text=\n\ Parses\ a\ number\ by\ eating\ it\ and\ returning\ its\ value\n\ @precondition\:\ current\ token\ is\ an\ integer\n\ @postcondition\:\ number\ token\ has\ been\ eaten\n\ @return\ the\ value\ of\ the\ parsed\ integer\n
+comment3.params=
+comment3.target=ast.Statement\ parseStatement()
+comment3.text=\n\ Parses\ a\ statement\ that\ either\ starts\ with\ WRITELN,\ BEGIN,\ IF,\n\ WHILE,\ or\ a\ variable\n\ @precondition\:\ current\ token\ is\ WRITELN,\ BEGIN,\ IF,\ WHILE,\ or\ a\ variable\n\ @postcondition\:\ all\ tokens\ within\ the\ statement\ has\ been\ eaten\n\ \n\ @return\ a\ Statement\n
+comment4.params=
+comment4.target=ast.Expression\ parseFactor()
+comment4.text=\n\ Parses\ a\ factor,\ which\ is\ defined\ as\ either\ a\ number,\ a\ negative\ number,\n\ or\ an\ expression\ within\ parentheses.\n\ \n\ @precondition\:\ current\ token\ is\ either\ a\ number,\ parenthesis,\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ negative\ sign\n\ @postcondition\:\ all\ tokens\ part\ of\ the\ factor\ are\ eaten\n\ @return\ a\ Expression\n
+comment5.params=
+comment5.target=ast.Expression\ parseTerm()
+comment5.text=\n\ Parses\ a\ term\ which\ consists\ of\ factors\ multiplied\ and\ divided\n\ \n\ @precondition\:\ current\ token\ is\ a\ factor\n\ @postcondition\:\ all\ tokens\ part\ of\ the\ term\ are\ eaten\n\ @return\ a\ Expression\n
+comment6.params=
+comment6.target=ast.Expression\ parseExpr()
+comment6.text=\n\ Parses\ a\ expression\ which\ consists\ of\ terms\ added\ and\ subracted\n\ \n\ @precondition\:\ current\ token\ is\ a\ term\n\ @postcondition\:\ all\ tokens\ part\ of\ the\ expression\ are\ eaten\n\ @return\ a\ Expression\n
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+comment7.text=\n\ The\ main\ method\n\ \n\ @param\ args\ an\ array\ of\ arguments\n
+numComments=8

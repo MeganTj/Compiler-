@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=cond\ stmt
+comment0.target=If(Condition,\ Statement)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ If\n\ \n\ @param\ cond\ a\ condition\n\ @param\ stmt\ a\ statement\n
+comment1.params=cond\ stmt\ stmt2
+comment1.target=If(Condition,\ Statement,\ Statement)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ If\n\ \n\ @param\ cond\ a\ condition\n\ @param\ stmt\ a\ statement\n\ @param\ stmt2\ a\ statement\ following\ else\ \n
+comment2.params=env
+comment2.target=void\ exec(environment.Environment)
+comment2.text=\n\ Executes\ a\ statement\n\ \n\ @param\ env\ the\ Environment\ that\ remembers\ variables\n
+numComments=3

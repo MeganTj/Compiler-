@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=cond\ stmt
+comment0.target=While(Condition,\ Statement)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ While\n\ \n\ @param\ cond\ the\ condition\n\ @param\ stmt\ a\ statement\ \n
+comment1.params=env
+comment1.target=void\ exec(environment.Environment)
+comment1.text=\n\ Executes\ a\ statement\n\ \n\ @param\ env\ the\ Environment\ that\ remembers\ variables\n
+numComments=2

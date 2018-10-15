@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=relop\ exp1\ exp2
+comment0.target=Condition(java.lang.String,\ Expression,\ Expression)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Condition\n\ \n\ @param\ relop\ the\ relative\ operator\n\ @param\ exp1\ the\ first\ expression\n\ @param\ exp2\ the\ second\ expression\n
+comment1.params=env
+comment1.target=java.lang.Integer\ eval(environment.Environment)
+comment1.text=\n\ Evaluates\ an\ expression\ and\ returns\ resulting\ Integer\n\ \n\ @param\ env\ the\ Environment\ that\ remembers\ variables\n\ @return\ the\ Integer\ value\ from\ evaluating\ the\ expression\n
+numComments=2
